@@ -5,6 +5,7 @@ import Skills from '../../pages/Skills/Skills';
 import Carousal from '../Carousal/Carousal';
 import Headline from '../Headline/Headline';
 import MainNavbar from '../Navbar/MainNavbar';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <About></About>
             <Skills></Skills>
             <Experience></Experience>
+            <Projects></Projects>
         </div>
     );
 };
